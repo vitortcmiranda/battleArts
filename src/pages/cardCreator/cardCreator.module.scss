@@ -1,8 +1,12 @@
 .containerCardCreator {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row-reverse;
+    // background: var(--white);
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    
     .cardDetails {
-        
+        margin-right: 4rem;
     }
 }

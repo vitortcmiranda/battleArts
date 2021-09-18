@@ -1,18 +1,16 @@
     .card{
-      width: 210.3px;
-      height: 296.11px;
-      left: 534.89px;
-      top: 50px;
+      display: flex;
+      flex-direction: column;
+      width:13.12rem;
+      height: 18.5rem;
   
       background: #043142;
       border: 2px solid #26F2FF;
       border-radius: 8px;
   
       .cardShape {
-        height: 255.56px;
-        margin: 20.75px  15.09px 20.75px 15.09px;
-        left: 549.97px;
-        top: 70.75px;
+        height: 15.93rem;
+        margin: 1.29rem  0.94rem 1.29rem  0.94rem;
   
         background: #00ABE7;
         border: 2px solid #26F2FF;
@@ -23,74 +21,54 @@
             transform: translate(-20%, -20%);
             background: #043142;
             border-radius: 2.5rem;
-            width: 35.84px;
-            height: 35.84px;
+            width: 2.24rem;
+            height: 2.24rem;
             border: 2px solid #26F2FF;
             font-size: 0;
-          }
-          img {
-            margin: 3.5px;
-            margin-top: 7px;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            flex-direction: column; 
           }
         }
         .monsterCircle{ 
-          /* Rectangle 11 */
-          width: 160.32px;
-          height: 140px;
-          margin-left: 6px;
+          display: flex;
+          align-items: center; 
+          justify-content: center; 
+          flex-direction: column; 
+          width: 10.02rem;
+          height: 8.75rem;
+          margin-left: 0.375rem;
           background: #26F2FF;
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          border-radius: 48px;
-        }
-        .monsterImage {
-          /* Layer 1 copy */
-          position: absolute;
-          width: 131.08px;
-          height: 80.16px;
-          margin-left: 16px;
-          margin-top: 32px;
-        }
-        .monsterTitle{
-          margin-left: 42px;
-          margin-top: 8px;
-          font-family: 'Rum Raisin', sans-serif;
-        }
-        .monsterDescription{
-          margin-top: 0.1rem;
-          margin-left: 1rem;
-          width: 141.46px;
-          height: 49.98px;
-          left: 569.78px;
-          top: 256.53px;
-          background: #043142;
-          border-radius: 8px;
-          p{  
-              margin-left: 8px;
-              width: 123px;
-              font-family: 'Rum Raisin', sans-serif;
-              font-style: normal;
-              font-weight: normal;
-              font-size: 9px;
-              line-height: 10px;
-              text-align: center;
-  
-              color: #00ABE7;
+          border-radius: 3rem;
+
+          .monsterImage {
+            position: absolute;
+            width: 8.1925rem;
+            height: 5.01rem;
           }
         }
+        .monsterTitle{
+          font-size: 1rem;
+          display: flex;
+          justify-content: center;
+          margin-top: 0.5rem;
+          font-family: 'Rum Raisin', sans-serif;
+        }
       }
-      .status{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #26F2FF;
-        height: 1.4rem;
-        margin-left: 0;
-        width: 208px;
-        margin-left: -18px;
-        border-radius: 4px;
-        .attrs{
-          margin-top: 0.4rem;
-          margin-bottom: 0.1rem;
+      .footer{
+        align-items: flex-end;
+        .status{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #26F2FF;
+          border-radius: 4px;
+          .attrs{
+            margin-top: 0.4rem;
+            margin-bottom: 0.1rem;
+          }
         }
       }
     }

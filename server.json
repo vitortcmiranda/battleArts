@@ -1,0 +1,166 @@
+{
+  "cards": [
+    {
+      "id": 0,
+      "title": "Dragão Ocidental",
+      "type": "fire",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/00.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "legend",
+      "description": "Jake Long é um adolescente asiático-americano de 13 anos que luta para encontrar o equilíbrio em sua vida como skatista de Nova York, enquanto aprende a aperfeiçoar seus poderes místicos como o Dragão Ocidental.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost": 15,
+        "def": 15
+      }
+      
+    },
+    {
+      "id": 1,
+      "title": "Serpente Marinha",
+      "type": "water",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/01.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "legend",
+      "description": "Serpente gigante dos mares.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labora aliqua.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost": 15,
+        "def": 15
+      }
+      
+    },
+    {
+      "id": 2,
+      "title": "Monstro de Lodo",
+      "type": "plant",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/02.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "rare",
+      "description": "Monstro de lodo da floresta..Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labora aliqua.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }    
+    },
+    {
+      "id": 3,
+      "title": "Minotauro",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/03.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "rare",
+      "description": "O Minotauro é figura mitológica idealizada na Grécia Antiga que tinha corpo de homem e uma cabeça e cauda de touro. Permeava no imaginário dos povos gregos muitos mitos e o Minotauro era um deles.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 4,
+      "title": "Medusa",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/04.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "uncommon",
+      "description": "A Medusa, na mitologia grega, era um monstro ctônico do sexo feminino, uma das três Górgonas. Filha de Fórcis e Ceto, quem quer que olhasse diretamente para ela seria transformado em pedra.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 5,
+      "title": "Grifo",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/05.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "uncommon",
+      "description": "Grifo é uma criatura lendária de origens asiáticas milenares.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 6,
+      "title": "Quimera",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/06.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "common",
+      "description": "A Quimera é um monstro que possui o corpo e a cabeça de um leão e uma cobra como cauda. Além disso, a cabeça de uma cabra sobressai de suas costas. Todavia, o termo quimera passou a descrever qualquer criatura mítica ou fictícia com partes tiradas de vários animais.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 7,
+      "title": "Sereia",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/07.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "common",
+      "description": "As sirenes ou sereias, também chamadas de musas do mundo inferior, são criaturas que atraem marinheiros com suas vozes e música encantadoras, levando-os a naufragar nas costas rochosas. Na arte grega antiga, eles são representados como pássaros com grandes cabeças femininas, penas e pés escamosos.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 8,
+      "title": "Centauro",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/08.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "common",
+      "description": "Centauros são criaturas mitológicas com cabeças, braços e torsos humanos, e pernas e corpo de cavalo. De acordo com a mitologia grega, os centauros são mais conhecidos por instigar uma luta com os lapitas. No dia do casamento de Hipodâmia com Pirítoo, o rei dos lapitas, os centauros invadiram e tentaram sequestrar as mulheres lapitas.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    },
+    {
+      "id": 10,
+      "title": "Fauno",
+      "type": "earth",
+      "url":"file:///D:/ProjetosGit/battleArts/public/assets/10.png",
+      "author": "Victor Bruno",
+      "artist": "Joãozinho das couves",
+      "rarity": "common",
+      "description": "Fauno é um nome exclusivo da religião de Roma Antiga, originalmente, define um rei da região de Lácio que foi transmutado em deus.",
+      "status": {
+        "hp": 15,
+        "atk": 25,
+        "cost":15,
+        "def": 15
+      }     
+    }                   
+  ]
+}

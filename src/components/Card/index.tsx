@@ -11,29 +11,26 @@ export function Card () {
                         <img src="/watermonster.png" alt="Monstro" className={styles.monsterImage} />
                     </div>
                     <h5 className={styles.monsterTitle}>Serpente Marinha</h5>
-                    <div className={styles.monsterDescription}>
-                        <p>
-                        Serpente gigante dos mares.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labora aliqua.
-                        </p>
-                    </div>
-                    <div className={styles.status}>
-                        <div className={styles.attrs}>
+                    <div className={ styles.footer }>
+                        <div className={styles.status}>
+                            <div className={styles.attrs}>
+                                <span>
+                                    <img src="/hp.svg" alt="Vida" />
+                                        10</span>
+                            </div>
+                            <div className={styles.attrs}>
+                                    <img src="/atk.svg" alt="Ataque" className={styles.svg}/>
+                                    <span>10</span>
+                            </div>
+                                
+                            <div className={styles.attrs}>
                             <span>
-                                <img src="/hp.svg" alt="Vida" />
+                                    <img src="/energy.svg" alt="Energia" />
                                     10</span>
-                        </div>
-                        <div className={styles.attrs}>
-                                <img src="/atk.svg" alt="Ataque" className={styles.svg}/>
-                                <span>10</span>
-                        </div>
+                            </div>
                             
-                        <div className={styles.attrs}>
-                        <span>
-                                <img src="/energy.svg" alt="Energia" />
-                                10</span>
                         </div>
-                        
-                        </div>
+                    </div>
                 </div>
         </div>
         </div>
