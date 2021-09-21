@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import styles from './cardCreator.module.scss';
+import styles from './creator.module.scss';
 import { Card } from '../../components/Card';
-import { useForm, ValidationError } from "@formspree/react";
 
 export default function CardCreator () {
 

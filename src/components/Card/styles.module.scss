@@ -1,7 +1,7 @@
     .card{
       display: flex;
       flex-direction: row;
-      // width:13.12rem;
+      width:13.12rem;
       height: 18.5rem;
       
       background: #043142;
@@ -9,6 +9,8 @@
       border-radius: 8px;
       .author {
         font-size: 0.5rem;
+        color: #00ABE7;
+        font-family: 'Saira Condensed', sans-serif;
         writing-mode: vertical-rl;
         text-orientation: mixed;
         display: flex;
@@ -18,6 +20,8 @@
       }
       .artist {
         font-size: 0.5rem;
+        font-family: 'Saira Condensed', sans-serif;
+        color: #00ABE7;
         writing-mode: vertical-rl;
         text-orientation: mixed;
         display: flex;
@@ -64,9 +68,11 @@
               border: 2px solid #26F2FF;
               font-size: 0;
               display: flex;
-              align-items: center; 
-              justify-content: center; 
-              flex-direction: column; 
+              justify-content: space-around;
+              
+              img{
+                align-self: center; 
+              }
             }
           }
           .monsterCircle{ 
