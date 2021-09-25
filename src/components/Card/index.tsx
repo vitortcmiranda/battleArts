@@ -1,23 +1,25 @@
 import styles from './styles.module.scss';
-export function Card () {
+export function Card (props) {
+    const type = 'plant';
     return (
+        
         <div className={ styles.cardCreator }>
-            <div className={styles.card}>
-            <span className={styles.author}>author: Victor Araujo</span>
+            <div className={`${styles.card}  ${type}-3-color ${type}-border`}>
+            <span className={`${styles.author} ${type}-color`}>author: Victor Araujo</span>
 
                 <div className={styles.cardContainer}>
-                    <div className={styles.cardShape}>
-                        <div className={styles.cardMonster}>
-                            <img src="/water.svg" alt="" />
+                    <div className={`${styles.cardShape}  ${type}-2-color ${type}-border`}>
+                        <div className={`${styles.cardMonster} ${type}-3-color ${type}-border`}>
+                            <img src={`/${type}.svg`} alt="" />
                         </div>
-                        <div className={styles.monsterCircle}>
-                            <img src="/watermonster.png" alt="Monstro" className={styles.monsterImage} />
+                        <div className={`${styles.monsterCircle} ${type}-1-color`}>
+                            <img src="/assets/02.png" alt="Monstro" className={styles.monsterImage} />
                         </div>
-                        <h5 className={styles.monsterTitle}>Serpente Marinha</h5>
+                        <h5 className={`${styles.monsterTitle} ${type}-color`}>Serpente Marinha</h5>
 
                     </div>
                     <div className={ styles.footer }>
-                            <div className={styles.status}>
+                            <div className={`${styles.status} ${type}-1-color`}>
                                 <div className={styles.attrs}>
                                     <span>
                                         <img src="/hp.svg" alt="Vida" />
@@ -37,7 +39,7 @@ export function Card () {
                             </div>
                         </div>
                 </div>
-                <span className={styles.artist}>art: João das Couves</span>
+                <span className={`${styles.artist} ${type}-color`}>art: João das Couves</span>
         </div>
         </div>
     );

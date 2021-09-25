@@ -2,6 +2,7 @@
   "cards": [
     {
       "id": 0,
+      "edition": 1,
       "title": "Dragão Ocidental",
       "type": "fire",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/00.png",
@@ -19,6 +20,7 @@
     },
     {
       "id": 1,
+      "edition": 1,
       "title": "Serpente Marinha",
       "type": "water",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/01.png",
@@ -36,6 +38,7 @@
     },
     {
       "id": 2,
+      "edition": 1,
       "title": "Monstro de Lodo",
       "type": "plant",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/02.png",
@@ -52,8 +55,9 @@
     },
     {
       "id": 3,
+      "edition": 1,
       "title": "Minotauro",
-      "type": "earth",
+      "type": "light",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/03.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -68,8 +72,9 @@
     },
     {
       "id": 4,
+      "edition": 1,
       "title": "Medusa",
-      "type": "earth",
+      "type": "dark",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/04.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -84,8 +89,9 @@
     },
     {
       "id": 5,
+      "edition": 1,
       "title": "Grifo",
-      "type": "earth",
+      "type": "light",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/05.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -100,8 +106,9 @@
     },
     {
       "id": 6,
+      "edition": 1,
       "title": "Quimera",
-      "type": "earth",
+      "type": "dark",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/06.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -116,8 +123,9 @@
     },
     {
       "id": 7,
+      "edition": 1,
       "title": "Sereia",
-      "type": "earth",
+      "type": "dark",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/07.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -132,8 +140,9 @@
     },
     {
       "id": 8,
+      "edition": 1,
       "title": "Centauro",
-      "type": "earth",
+      "type": "plant",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/08.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",
@@ -148,8 +157,9 @@
     },
     {
       "id": 10,
+      "edition": 1,
       "title": "Fauno",
-      "type": "earth",
+      "type": "plant",
       "url":"file:///D:/ProjetosGit/battleArts/public/assets/10.png",
       "author": "Victor Bruno",
       "artist": "Joãozinho das couves",

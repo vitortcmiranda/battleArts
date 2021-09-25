@@ -26,6 +26,14 @@
     --red-shape: #AC1043;
     --red-body: #E92364;
     --red-circle: #FFFD98;
+
+    --dark-shape: #180421;
+    --dark-body: #783384;
+    --dark-circle: #FF98D6;
+
+    --light-shape: #40484A;
+    --light-body: #FEFEFE;
+    --light-circle: #D4A601;
     
     // 
     --white: #FFF;
@@ -88,4 +96,84 @@ body {
   
   button {
     cursor: pointer;
+  }
+
+  .water-1-color{
+    background: var(--blue-circle);
+  }
+  .water-2-color{
+    background: var(--blue-body);
+  }
+  .water-3-color{
+    background: var(--blue-shape);
+  }
+  .water-border{
+    border-color: var(--blue-circle) !important;
+  }
+  .water-color{
+    color: var(--blue-shape) !important;
+  }
+
+  .fire-1-color{
+    background: var(--red-circle);
+  }
+  .fire-2-color{
+    background: var(--red-body);
+  }
+  .fire-3-color{
+    background: var(--red-shape);
+  }
+  .fire-border{
+    border-color: var(--red-circle) !important;
+  }
+  .fire-color{
+    color: var(--red-circle) !important;
+  }
+
+  .plant-1-color{
+    background: var(--green-circle);
+  }
+  .plant-2-color{
+    background: var(--green-body);
+  }
+  .plant-3-color{
+    background: var(--green-shape);
+  }
+  .plant-border{
+    border-color: var(--green-circle) !important;
+  }
+  .plant-color{
+    color: var(--green-shape) !important;
+  }
+
+  .light-1-color{
+    background: var(--light-circle);
+  }
+  .light-2-color{
+    background: var(--light-body);
+  }
+  .light-3-color{
+    background: var(--light-shape);
+  }
+  .light-border{
+    border-color: var(--light-circle) !important;
+  }
+  .light-color{
+    color: var(--light-shape) !important;
+  }
+
+  .dark-1-color{
+    background: var(--dark-circle);
+  }
+  .dark-2-color{
+    background: var(--dark-body);
+  }
+  .dark-3-color{
+    background: var(--dark-shape);
+  }
+  .dark-border{
+    border-color: var(--dark-circle) !important;
+  }
+  .dark-color{
+    color: var(--dark-shape) !important;
   }

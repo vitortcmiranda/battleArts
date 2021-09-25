@@ -9,12 +9,12 @@ export default function CardCreator () {
         <div className={ styles.containerCardCreator }>
             <Card />
             <div className={ styles.cardDetails }>
-                <form>
+                {/* <form>
                     <label >Creature name:</label><br />
                     <input type="text" id="fname" name="fname" /><br />
                     <label>Creature description:</label><br />
                     <input type="text" id="lname" name="lname" />
-                </form>
+                </form> */}
             </div>
         </div>
     );
