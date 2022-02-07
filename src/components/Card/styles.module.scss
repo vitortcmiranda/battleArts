@@ -1,102 +1,116 @@
-    .card{
+.cardFlex{
+  display: flex;
+  flex-direction: column;
+  border: 0.125rem solid;
+  border-radius: 0.5rem;
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    .author {
+      font-size: 0.5rem;
+      font-family: 'Saira Condensed', sans-serif;
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      text-orientation: mixed;
       display: flex;
-      flex-direction: row;
-      width:13.12rem;
-      height: 18.5rem;
-      
-      border: 2px solid;
-      border-radius: 8px;
-      .author {
-        font-size: 0.5rem;
-        font-family: 'Saira Condensed', sans-serif;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        display: flex;
-        align-items: center; 
-        justify-content: center; 
-        flex-direction: column;   
-      }
-      .artist {
-        font-size: 0.5rem;
-        font-family: 'Saira Condensed', sans-serif;
-        writing-mode: vertical-rl;
-        text-orientation: mixed;
-        display: flex;
-        align-items: center; 
-        justify-content: center; 
-        flex-direction: column;      
-      }
-      .cardContainer{
-        display: flex;
-        align-items: center; 
-        justify-content: center; 
-        flex-direction: column;    
-        .footer{
-          width: 10rem;
-          .status{
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column;   
+    }
+    .artist {
+      font-size: 0.5rem;
+      font-family: 'Saira Condensed', sans-serif;
+      writing-mode: vertical-rl;
+      transform: rotate(-180deg);
+      text-orientation: mixed;
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column;      
+    }
+    .cardContainer{
+      display: flex;
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column;    
+      .cardShape {
+
+        border: 0.125rem solid;
+        border-bottom: 0;
+        border-radius: 0.5rem 0.5rem 0rem 0rem;
+        
+        .cardMonster {
+          &:first-child {
+            top: 50%;
+            transform: translate(-20%, -20%);
+            border-radius: 2.5rem;
+            width: 2.24rem;
+            height: 2.24rem;
+            border: 0.125rem solid;
             display: flex;
-            flex-direction: row;
-            text-align: center;
-            justify-content: space-between;
-            border-radius: 4px;
-            .attrs{
-              margin-top: 0.4rem;
-              margin-bottom: 0.1rem;
+            align-content: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            
+            img{
+              align-self: center; 
             }
           }
         }
-        .cardShape {
-          height: 15.93rem;
-          margin: 1.29rem 0.2rem 0rem 0.2rem;
-          border: 2px solid;
-          border-radius: 8px;
-          
-          .cardMonster {
-            &:first-child {
-              top: 50%;
-              transform: translate(-20%, -20%);
-              border-radius: 2.5rem;
-              width: 2.24rem;
-              height: 2.24rem;
-              border: 2px solid;
-              font-size: 0;
-              display: flex;
-              justify-content: space-around;
-              
-              img{
-                align-self: center; 
-              }
-            }
-          }
-          .monsterCircle{ 
-            display: flex;
-            align-items: center; 
-            justify-content: center; 
-            flex-direction: column; 
-            width: 10.02rem;
-            height: 8.75rem;
-            margin-left: 0.375rem;
-            margin-right: 0.375rem;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            border-radius: 3rem;
-  
-            .monsterImage {
-              position: absolute;
-              // width: 8.1925rem;
-              // height: 5.01rem;
-              min-width: 8.1925rem;
-              min-height: 5.01rem;
-              max-width: 9.5rem;
-              max-height: 8.5rem;
-            }
-          }
-          .monsterTitle{
-            font-size: 1rem;
-            display: flex;
-            justify-content: center;
-            margin-top: 0.5rem;
-            font-family: 'Rum Raisin', sans-serif;
+        .monsterCircle{ 
+          display: flex;
+          align-items: center; 
+          justify-content: center; 
+          flex-direction: column; 
+          margin-top: -1rem;
+          margin-left: 0.375rem;
+          margin-right: 0.375rem;
+          box-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+          border-radius: 3rem;
+          font-size: 0;
+          padding: 0.5rem;
+        }
+        .monsterTitle{
+          font-size: 1rem;
+          display: flex;
+          justify-content: center;
+          margin-top: 0.5rem;
+          font-family: 'Rum Raisin', sans-serif;
+        }
+        .description {
+          display: flex;
+          flex-direction: column;
+          align-content: stretch;
+          justify-content: center;
+          align-items: center;
+          margin:  0.375rem;
+          border-radius: 0.5rem;
+          p{
+            max-width: 35ch;
+            padding: 0.25rem;
+            text-align: center;
+            font-size: 0.56rem;
+            font-family: 'Ropa Sans', sans-serif;
+            -webkit-line-clamp: 2;
           }
         }
       }
     }
+  }
+  .footer{
+    .status{
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: space-around;
+      border-radius: 0rem 0rem 0.25rem 0.25rem;
+      .attrs{
+        font-family: 'Rochester', cursive;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+      }
+    }
+  }
+}

@@ -110,8 +110,14 @@ body {
   .water-border{
     border-color: var(--blue-circle) !important;
   }
-  .water-color{
+  .water-circle{
+    color: var(--blue-circle) !important;
+  }
+  .water-shape{
     color: var(--blue-shape) !important;
+  }
+  .water-body{
+    color: var(--blue-body) !important;
   }
 
   .fire-1-color{
@@ -126,8 +132,14 @@ body {
   .fire-border{
     border-color: var(--red-circle) !important;
   }
-  .fire-color{
+  .fire-circle{
     color: var(--red-circle) !important;
+  }
+  .fire-shape{
+    color: var(--red-shape) !important;
+  }
+  .fire-body{
+    color: var(--red-body) !important;
   }
 
   .plant-1-color{
@@ -142,8 +154,14 @@ body {
   .plant-border{
     border-color: var(--green-circle) !important;
   }
-  .plant-color{
+  .plant-circle{
+    color: var(--green-circle) !important;
+  }
+  .plant-shape{
     color: var(--green-shape) !important;
+  }
+  .plant-body{
+    color: var(--green-body) !important;
   }
 
   .light-1-color{
@@ -158,8 +176,14 @@ body {
   .light-border{
     border-color: var(--light-circle) !important;
   }
-  .light-color{
+  .light-circle{
+    color: var(--light-circle) !important;
+  }
+  .light-shape{
     color: var(--light-shape) !important;
+  }
+  .light-body{
+    color: var(--light-body) !important;
   }
 
   .dark-1-color{
@@ -174,6 +198,25 @@ body {
   .dark-border{
     border-color: var(--dark-circle) !important;
   }
-  .dark-color{
+  .dark-circle{
+    color: var(--dark-circle) !important;
+  }
+  .dark-shape{
     color: var(--dark-shape) !important;
+  }
+  .dark-body{
+    color: var(--dark-body) !important;
+  }
+  .legendary { 
+    overflow: hidden;
+    background: linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%);
+    background-size: 250% auto;
+    
+    animation: shine 2.5s linear;
+    
+  }
+  @keyframes shine {
+    to {
+      background-position: 100% center;
+    }
   }

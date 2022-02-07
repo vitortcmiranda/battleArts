@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                     <link
-                    href="https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Rum+Raisin&family=Saira+Condensed&display=swap"
+                    href="https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Rochester&family=Rum+Raisin&family=Saira+Condensed&display=swap"
                     rel="stylesheet"
                     />
                 </Head>
