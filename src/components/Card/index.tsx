@@ -18,7 +18,7 @@ export function Card (props) {
                                 <FontAwesomeIcon icon={ faSun } className={ `${styles.img} ${type}-circle `} />
                             </div>
                             <div className={`${styles.monsterCircle} ${type}-1-color`}>
-                                <Image src="/assets/08.png" width={150} height={150}></Image>
+                                <Image src="/assets/08.png" width={150} height={150} alt="teste"></Image>
                             </div>
                             <h5 className={`${styles.monsterTitle} ${type}-shape`}>Monstro de lodo</h5>
                             <div className={ `${styles.description} ${type}-3-color`}>

@@ -16,9 +16,9 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "axios": "^0.21.4",
     "framer-motion": "^4.1.17",
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "^12.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.41.1"
   },
   "devDependencies": {
